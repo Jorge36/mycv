@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>My CV!</title>
+</head>
+
+
+<!-- The cards in each row are the same height, and take on the height of the tallest card -->
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row>div[class*='col-'] {
+        display: flex;
+    }
+</style>
+<!-- The cards in each row are the same height, and take on the height of the tallest card -->
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark color-blue">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/Coffee-Cup-icon.png" class="img-pos" width="30" height="30" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./workexperience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./education.html">Education & Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ProgrammingLanguages.html">Programming Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./webassembly.html">Java Demo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Header -->
+    <!-- Main -->
+    <main role="main" class="flex-shrink-1">
+        <div class="container cont-titles">
+            <h6><strong>WORK EXPERIENCE</strong></h6>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>Freelance Work (April 2017 - March 2018)</strong></h6>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>Python Developer and Common Lisp Developer</strong></h6>
+                            <p class="card-text">Developed a tool to compare 2 files (format csv) and find matches using
+                                Python 3.0 and the following libraries: fuzzywuzzy, pandas and itertools. I also used
+                                the PyCharm Pro IDE and the tool was developed in Linux Ubuntu 17.10.
+                                Scraped a web page using Python 3.0, libraries (xlsxwriter, requests, BeautifulSoup) and
+                                Eclipse IDE. <br>
+                                Developed the Taquin Game (puzzle) with Common Lisp Language and I used LispWorks tool
+                                (Macintosh version), Manhattan heuristic, the linear conflict heuristic, functions for
+                                lists management, Quicklisp library (library manager for Common Lisp) and cl-heap
+                                library (implementation of an efficient priority queue).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>Baliarda, Argentina (June 2014 - January 2017)</strong></h6>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>Senior SAP Technical Consultant - ABAP Programmer</strong>
+                            </h6>
+                            <p class="card-text">Sap system maintenance, requirements analysis and development of
+                                reports (FICO, WM, PP and MM modules). Built SAP-Preactor Interface to automate the load
+                                of recipes in Preactor (Preactor is a suite of production planning and scheduling
+                                products).Configuration of AFIP (Tax Income Office or Treasury in Argentina) web
+                                Services.
+                                Development of a Consumer Service to automate the unblocking of invoices in SAP. <br>
+                                Modifications in a Web Page utilizing Visual Basic (IDE Visual Studio).
+                                <br>
+                                <strong>SAP Evolution Project: </strong>Implementation of MM, FICO and SD Modules.
+                                Completed tasks:
+                                Building the ABAP Development Guide. Code review process (QAS). Design of Interfaces
+                                with Internal Systems of the company.
+                                <br>Consultant Basis tasks: Copy of local and remote mandt, monitoring of mandt copies,
+                                setting up of instance profiles, application of notes, monitoring of programs (SM51,
+                                ST04). Configuration of printers by the transaction SPAD.
+                                <br>Consultant Security tasks: Creation of users, assigning roles, blocking and
+                                unblocking users, creating inheritance roles, user analysis (processing time, programs
+                                used). Security programs used: RSUSR003, RSUSR200 and SUIM.
+                                <br>Handling of SQL Transact tools: Creating tables, creating indexes, SQL query
+                                analysis.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>TATA Consultancy, Argentina (March 2014 – May 2014)</strong></h6>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>Senior SAP Technical Consultant - ABAP Programmer</strong>
+                            </h6>
+                            <p class="card-text"><strong>Corona Project - Remote: </strong>System used: SAP ECC 6.0.
+                                Used BAPIs for
+                                the
+                                PM module. Designed a program to handle statistics (graph by means of xmls). Built
+                                Smartforms for MM.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>GrupoAssa, Argentina (August 2012 - February 2014)</strong></h6>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>ABAP Programmer<strong></h6>
+                            <p class="card-text"><strong>GrupoCorvi - Remote:</strong> Developed of a report for
+                                accounting of
+                                policies
+                                and partial payments to automate the load. Used BAPIs, FTP functions and
+                                Object-oriented
+                                paradigm.<br>
+                                <strong>Ghoner - Remote:</strong> Developed a report for accounting of policies and
+                                partial payments
+                                to
+                                automate the load. Used BAPIs, Inbound Proxy and Object-Oriented paradigm.<br>
+                                Directv - On-site: Developed Interfaces with Internal Systems of the company using
+                                Oracle and SAP systems to connect them.Tools used: User-exit, Badis, Bapis, Customer
+                                exit, Inbound and Outbound Proxy. Used Object-Oriented paradigm and Object-Oriented
+                                Design Patterns for ABAP. Coordinated activities of programmers.<br>
+                                <strong>Palacio de Hierro - Remote, Galileo Project: </strong>Analysis, design,
+                                development and QA of
+                                programs. System used: SAP Retail. Tools used: Web Dynpro ABAP (inbound and outbound
+                                plugs), BAPI, User exit, Customer exit, Badi, ABAP Proxy. Used Object-Oriented
+                                paradigm.<br>
+                                <strong>Compartamos Banco - Remote, Project CB Integra:</strong> Implementation of SAP
+                                Banking and
+                                CRM.
+                                Technical Analysis of Requirements. Review of Functional Specifications and
+                                Technical
+                                Design. Time estimation of the development. Abap code review and performance
+                                analysis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>Accenture, Argentina (March 2011 - July 2012)</strong></h4>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>ABAP Programmer</strong></h6>
+                            <p class="card-text"><strong>FIAT - Remote: </strong>Improved a standard report (FI-CO
+                                Module).
+                                <br><strong>AES - Remote: </strong>SAP system Maintenance (FI, MM, SD, HR and PLM
+                                Modules): Tools used:
+                                User-exit, Badi, Batch input and Smartforms. Also used: Logical database, Bapi, RFC
+                                functions and Web services and Object-Oriented paradigm.
+                                <br><strong>Ripley - Remote: </strong>SAP system Maintenance (FI-CO, FI-AA, MM Modules).
+                                Tools used:
+                                User-exit, BADI, BTE, Substitutions and Batch input. Also used: Logical database,
+                                Bapi,
+                                RFC functions, Web services, Interfaces using SAP PI server and Object-Oriented
+                                paradigm.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>S&V Consulting, Argentina (Feb. 2010 - Feb. 2011)</h6>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>ABAP Programmer</strong></h6>
+                            <p class="card-text">
+                                <strong>Sanofi Aventis, Argentina - On-site: </strong>Corrective maintenance of a report
+                                (FI-CO
+                                module).
+                                <br><strong>Comfandi, Colombia - Remote:</strong> Configured and developed a Web
+                                Consumer on the ERP side
+                                that receives information from a Web service implemented in Java. Analyzed the
+                                requirements (technical specification with Java code examples and class diagrams),
+                                estimated ABAP time, developed using object-oriented paradigm (proxy class and
+                                exception
+                                handling) and tested the interface.
+                                <br><strong>Procter and Gamble - Remote: </strong>SAP system maintenance and developed
+                                of reports (FI and
+                                MM
+                                modules). Used tools: User-exit, Badi, Batch Input and Smartforms, Bapi, ALV
+                                functions.
+                                Developed an interface SAP ERP – SAP BW (MM module). Tools used: RFC function, Bapi
+                                (BAPI_COST_ESTIMATION_CREATE), API to obtain information from a CUBE
+                                (RSDRI_INFOPROV_READ) in BW, ALV functions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header color-black">
+                            <h6><strong>Freelance Work, Argentina (Jan. 2009 - Dec. 2009)</strong></h6>
+                        </div>
+                        <div class="card-body color-blue">
+                            <h6 class="card-title"><strong>ABAP Programmer</strong></h6>
+                            <p class="card-text">
+                                Developed a sales system for the company CYA (Wholesale Distributor of food and
+                                beverages). Used the IDE Visual Studio 2008 and the C# language. Also used
+                                JetBrainsResharper tool, WAMP server, MySQL.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main -->
+    <!-- Footer -->
+    <footer class="page-footer font-small special-color-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1" target="_blank"
+                        href="https://plus.google.com/u/0/102645720990525613156?tab=mX">
+                        <i class="fab fa-google-plus-g"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1" target="_blank"
+                        href="https://ie.linkedin.com/in/jorge-alberto-robla-58a17024">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Social buttons -->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">Copyright © 2019 | Jorge Robla
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
