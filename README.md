@@ -1,3 +1,3 @@
 # My CV
 My CV
-The webpage was deplyed on [Heroku](https://mycv-jr.herokuapp.com/)
+The webpage was deplyed on [000webhost](https://hobbyjorge.000webhostapp.com/)
