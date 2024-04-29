@@ -1,6 +1,6 @@
 # My CV
 My CV
-The webpage was deplyed on [000webhost](https://hobbyjorge.000webhostapp.com/)
+I used bootstrap 4.3.1 to develop this website. The webpage was deplyed on [000webhost](https://hobbyjorge.000webhostapp.com/)
 
 
 Screenshots of the website
